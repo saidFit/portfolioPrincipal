@@ -16,7 +16,7 @@ const animateVertical ={
 }
 export const Homee = ({SelectedPage,setSelectedPage}) => {
 
-  const arr = ['FullStack developer','Frontend','Backend']
+  const arr = ['Saftware developer','Frontend','Backend']
   const [text,setText] = useState('')
   const [index,setIndex] = useState(0)
   const [split,setSplit] = useState(1)
@@ -81,7 +81,7 @@ export const Homee = ({SelectedPage,setSelectedPage}) => {
              viewport={{ once: true, amount: 0.5 }}
              transition={{delay:.4, duration: 0.5 }}
              variants={animateHorizontal}
-             className='text-2xl font-[400] border-l border-black px-2'>{text}</motion.p> 
+             className='text-2xl font-[400] border-l-2 border-white px-2'>{text}</motion.p> 
          
             <motion.p
             initial="hidden"
@@ -89,7 +89,7 @@ export const Homee = ({SelectedPage,setSelectedPage}) => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ delay:.5 , duration: 0.5 }}
             variants={animateHorizontal}
-            className='w-full max-w-[600px]'>Full Stack Developer Width Hight Level Of Right Experience In Web Designing And Intermidiate In Backend,Then Producting The Quality Work</motion.p>
+            className='w-full max-w-[600px]'>Saftware Developer Width Hight Level Of Right Experience In Web developement And Then Producting The Quality Work using the various technology</motion.p>
             <AnchorLink
             className='bg-primary-500 w-fit rounded-md py-1 px-3 shadow-md hover:bg-primary-600 transition duration-500'
             onClick ={() => setSelectedPage(!SelectedPage)}
