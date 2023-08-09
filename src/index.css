@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  height: 100%;
+  background: rgb(240, 240, 240);
+  /* @apply text-white; */
+  /* background-color:#F0F0F0 */
+   /*
+  #010026
+  #2CBCE9
+  #DC4492
+  #FDCC49
+  #ededed; */
+  /* background: linear-gradient(81.66deg, #00B5EE 7.21%, #FF45A4 45.05%, #FFBA00 78.07%); */
+}
+
+.dark{
+  background:#0f172a !important;
+  color:#fff;
+
+}
+
+
+.form{
+  backdrop-filter: blur(4px);
+}
+
+/* #010026 */
+
+
+.ActiveSlider {
+  left: 0% !important;
+  opacity: 1 !important;
+}
+.PrevSlider {
+  left: -100% !important;
+  opacity: 0 !important;
+}
+.NextSlider {
+  left: 100% !important;
+  opacity: 0 !important;
+}
+
+
+.show-element{
+  transition: all .2s ease;
+}
+.slider-skill:hover .show-element{
+   top:0
+}
