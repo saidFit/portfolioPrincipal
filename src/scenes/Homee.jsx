@@ -3,6 +3,7 @@ import { centerAAbsolute, flexItems } from '../Hooks/useStyling'
 import {motion} from 'framer-motion'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { SocialMediaIcon } from '../components/SocialMediaIcon';
+import logo from '../assets/profile3.jpeg';
 
 const animateHorizontal = {
   hidden:{opacity:0,x:-50},
@@ -115,7 +116,7 @@ export const Homee = ({SelectedPage,setSelectedPage}) => {
             <img
               alt="profile"
               className="hover:filter w-[400px] rounded-t-[400px] h-[400px] object-cover hover:saturate-200 transition duration-500 z-10"
-              src="/assets/DZUHE3785.JPG"
+              src={logo}
             />
           </motion.div>
         </article>

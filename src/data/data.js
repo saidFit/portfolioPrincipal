@@ -1,6 +1,6 @@
-import { AiFillHtml5 } from "react-icons/ai";
-import { FaNode, FaReact } from "react-icons/fa";
-import { SiCss3, SiMaterialui, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { AiFillGithub, AiFillHtml5 } from "react-icons/ai";
+import { FaJava, FaNode, FaReact } from "react-icons/fa";
+import { SiCss3, SiMaterialui, SiMongodb, SiMysql, SiTailwindcss, SiTypescript } from "react-icons/si";
 import {TbBrandJavascript} from 'react-icons/tb'
 
  import {SiMediafire} from 'react-icons/si'
@@ -57,7 +57,34 @@ title:'Advanced',
 size:70
 
 },
-
+{
+   header:'Java',    
+   logo:<FaJava size={80} style={{fontWeight:'bold'}}/>,
+   title:'intermidiate',
+   size:40
+   
+   },
+{
+   header:'MySql',    
+   logo:<SiMysql size={80} style={{fontWeight:'bold'}}/>,
+   title:'intermidiate',
+   size:70
+   
+   },
+{
+   header:'Typescript',    
+   logo:<SiTypescript size={80} style={{fontWeight:'bold'}}/>,
+   title:'advanced',
+   size:80
+   
+   },
+{
+   header:'Git/Github',    
+   logo:<AiFillGithub size={80} style={{fontWeight:'bold'}}/>,
+   title:'advanced',
+   size:80
+   
+   },
 ]
 
 
@@ -146,6 +173,54 @@ export const PopUpSkills = [
         `
         
     },
+    {
+      _id : 1,
+      button:'Java',
+      header: 'Java',
+      title : 'intermidiate',
+         desc  : `i have the basic role in the ... i know the languege to popular to build the website 
+      making it look like readable English. Many desktop publishing packages and web page editors now 
+      use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+       sites still in their infancy. Various versions have evolved over the years, sometimes by accident
+      `
+      
+  },
+  {
+   _id : 1,
+   button:'MySql',
+   header: 'MySql',
+   title : 'intermidiate',
+      desc  : `i have the basic role in the ... i know the languege to popular to build the website 
+   making it look like readable English. Many desktop publishing packages and web page editors now 
+   use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+    sites still in their infancy. Various versions have evolved over the years, sometimes by accident
+   `
+   
+},
+  {
+   _id : 1,
+   button:'Typescript',
+   header: 'Typescript',
+   title : 'advanced',
+      desc  : `i have the basic role in the ... i know the languege to popular to build the website 
+   making it look like readable English. Many desktop publishing packages and web page editors now 
+   use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+    sites still in their infancy. Various versions have evolved over the years, sometimes by accident
+   `
+   
+},
+  {
+   _id : 1,
+   button:'Git/Github',
+   header: 'Git/Github',
+   title : 'intermidiate',
+      desc  : `i have the basic role in the ... i know the languege to popular to build the website 
+   making it look like readable English. Many desktop publishing packages and web page editors now 
+   use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+    sites still in their infancy. Various versions have evolved over the years, sometimes by accident
+   `
+   
+},
 ]
 
 
