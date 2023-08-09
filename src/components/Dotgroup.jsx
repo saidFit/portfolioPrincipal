@@ -29,7 +29,7 @@ export const Dotgroup = ({SelectedPage,setSelectedPage}) => {
 
   return (
 
-    <div className='flex flex-col gap-3 fixed top-[50%] right-3 md:right-12'>
+    <div className='flex flex-col gap-4 fixed top-[50%] right-3 md:right-12'>
         <GroupeLink
         Page={'home'}
         SelectedPage={SelectedPage}
